@@ -3,6 +3,7 @@
     <head>
     <meta charset="UTF-8">
     <title>HTML 5</title>
+    <link rel="shortcut icon" href="./imagenes/favicon.ico" type="image/x-icon">
     </head>
     <body>
      <header>
@@ -14,7 +15,65 @@
      <img src="https://www.floresyplantas.net/wp-content/uploads/ficus-lyrata-07.jpg" alt="imagen de pandurata" width="150px" heigth="150px">
      <!--imagen descargada del proyecto-->
      <img src="./imagenes/imagenes.webp" alt="imagen de un cactus"width="150px" heigth="150px">
-     </main>
+     <!--lista desordenada-->
+     <!--lista de plantas de la foto-->
+     <ul>
+        <li>Pandurata</li>
+        <li>Cactus</li>
+     </ul>
+     <!--lista ordenada-->
+     <ol>
+        <li>Planta que no requiere mucho riego</li>
+        <li>Planta que requiere mucho riego</li>
+     </ol>
+     <!--tabla-->
+     <table border="1px solid black">
+        <thead>
+            <tr>
+            <th>Cactus</th>
+            <th>Pandurata</th>
+            </tr>
+            <tr>
+                <td>1</td>
+                <td>2</td>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <th>Cuidado 1</th>
+                <th>Cuidado 2</th>
+                </tr>
+                <tr>
+                    <td>Poca agua</td>
+                    <td>Mucha agua</td>
+                </tr>  
+        </tbody>
+        <tfooter>
+            <tr>
+                <td>10 ml</td>
+                <td>20 ml</td>
+            </tr>
+        </tfooter>
+     </table>
+     <!--iframe de maps udine-->
+     <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d88599.89207018007!2d13.16176085315147!3d46.05615187391936!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x477a4aaffcbb00f5%3A0x3057d929f4963858!2s33100%20%C3%9Adine%2C%20Udine%2C%20Italia!5e0!3m2!1ses!2sar!4v1683298821004!5m2!1ses!2sar" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+     <!--iframe de youtube cactus-->
+     <iframe width="560" height="315" src="https://www.youtube.com/embed/JFeC3n88d4g" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+    
+     <!--formulario-->
+     <form action="#">
+        <label for="nombre">Nombre</label>
+        <input type="text" placeholder="ingrese su nombre" name="nombre" id="nombre" required>
+        <br><br>
+        <label for="mail">email</label>
+        <input type="email" placeholder="ingrese su email" id="email" name="email" required>
+        <br><br>
+        <label for="contra">password</label>
+        <input type="password" placeholder="ingrese su contraseña" id="contra" name="contra" required>
+        <br><br>
+        <input type="submit" value="enviar"
+     </form>
+    </main>
      <footer>
     & Copy; 2023 All right reserved
 </footer>
