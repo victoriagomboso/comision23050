@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald&display=swap');
+/* 
+selector universal css (*)
+*{
+    margin: 1;
+    padding: 1;
+}
+*/
+/* Selector de etiqueta */
+body {
+    background-color: #b8860b;
+}
+ p {
+    color: #000000;
+    font-family: 'Oswald', sans-serif;
+ }
+
+h1 {
+    color: #F68596;
+    font-size: 50px;
+    font-style: oblique;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 100;
+}
+/* Selector ID */
+#parrafoVerde{
+    color: #7fff00;
+}
+/*Selector de clase*/
+.parrafomarrón{
+    color: #a52a2a;
+}
