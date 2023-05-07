@@ -28,6 +28,7 @@ div{
 background-color: khaki;
 border: 2px solid aquamarine;
 }
+
 article{
     border: 3px solid #b18a8a;
     padding: 30px;
@@ -37,4 +38,13 @@ article{
 section{
     padding: 30px;
     border: 2px solid #a09a9a;
+}
+#saludo{
+    width: 600px;
+    height: 100px;
+    background-color: chocolate;
+    transition: background-color 5s;
+}
+#saludo:hover{
+    background-color: yellow;
 }
