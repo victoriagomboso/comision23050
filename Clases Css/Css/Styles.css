@@ -44,6 +44,15 @@ section{
     height: 100px;
     background-color: chocolate;
     transition: background-color 5s;
+    animation-name: test;
+    animation-duration: 5s;
+}
+@keyframes test{
+    from {background-color: blue;
+}
+to{
+    background-color: red;
+}
 }
 #saludo:hover{
     background-color: yellow;
